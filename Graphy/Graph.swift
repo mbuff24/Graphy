@@ -6,4 +6,6 @@
 //  Copyright © 2015 mbuff24. All rights reserved.
 //
 
-import Foundation
+class Graph {
+    
+}

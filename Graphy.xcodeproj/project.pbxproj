@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		814ABE571B804260009008CC /* Graphy.h in Headers */ = {isa = PBXBuildFile; fileRef = 814ABE561B804260009008CC /* Graphy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		814ABE5E1B804260009008CC /* Graphy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814ABE531B804260009008CC /* Graphy.framework */; };
-		814ABE631B804260009008CC /* GraphyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABE621B804260009008CC /* GraphyTests.swift */; };
 		814ABE741B804356009008CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABE731B804356009008CC /* AppDelegate.swift */; };
 		814ABE761B804356009008CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABE751B804356009008CC /* ViewController.swift */; };
 		814ABE791B804356009008CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814ABE771B804356009008CC /* Main.storyboard */; };
@@ -22,16 +20,11 @@
 		814ABEA51B8043E5009008CC /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABEA41B8043E5009008CC /* AdjacencyMatrix.swift */; };
 		814ABEA71B8044EA009008CC /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABEA61B8044EA009008CC /* Vertex.swift */; };
 		814ABEA91B80E6DB009008CC /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814ABEA81B80E6DB009008CC /* Graph.swift */; };
+		814B87E41B81127A004E9FAB /* Graphy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814ABE531B804260009008CC /* Graphy.framework */; };
+		814B87EC1B8112B2004E9FAB /* AdjacencyListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B87EB1B8112B2004E9FAB /* AdjacencyListTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		814ABE5F1B804260009008CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 814ABE4A1B804260009008CC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 814ABE521B804260009008CC;
-			remoteInfo = Graphy;
-		};
 		814ABE851B804356009008CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 814ABE4A1B804260009008CC /* Project object */;
@@ -46,15 +39,19 @@
 			remoteGlobalIDString = 814ABE701B804356009008CC;
 			remoteInfo = GraphySample;
 		};
+		814B87E51B81127A004E9FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814ABE4A1B804260009008CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814ABE521B804260009008CC;
+			remoteInfo = Graphy;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		814ABE531B804260009008CC /* Graphy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Graphy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		814ABE561B804260009008CC /* Graphy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graphy.h; sourceTree = "<group>"; };
 		814ABE581B804260009008CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		814ABE5D1B804260009008CC /* GraphyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		814ABE621B804260009008CC /* GraphyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphyTests.swift; sourceTree = "<group>"; };
-		814ABE641B804260009008CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		814ABE711B804356009008CC /* GraphySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814ABE731B804356009008CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		814ABE751B804356009008CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +70,10 @@
 		814ABEA41B8043E5009008CC /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
 		814ABEA61B8044EA009008CC /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		814ABEA81B80E6DB009008CC /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		814B87DF1B81127A004E9FAB /* GraphyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		814B87E31B81127A004E9FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814B87EA1B8112B2004E9FAB /* GraphyTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GraphyTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		814B87EB1B8112B2004E9FAB /* AdjacencyListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjacencyListTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		814ABE5A1B804260009008CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				814ABE5E1B804260009008CC /* Graphy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +105,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		814B87DC1B81127A004E9FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814B87E41B81127A004E9FAB /* Graphy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -119,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				814ABE551B804260009008CC /* Graphy */,
-				814ABE611B804260009008CC /* GraphyTests */,
+				814B87E01B81127A004E9FAB /* GraphyTests */,
 				814ABE721B804356009008CC /* GraphySample */,
 				814ABE871B804356009008CC /* GraphySampleTests */,
 				814ABE921B804356009008CC /* GraphySampleUITests */,
@@ -131,10 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				814ABE531B804260009008CC /* Graphy.framework */,
-				814ABE5D1B804260009008CC /* GraphyTests.xctest */,
 				814ABE711B804356009008CC /* GraphySample.app */,
 				814ABE841B804356009008CC /* GraphySampleTests.xctest */,
 				814ABE8F1B804356009008CC /* GraphySampleUITests.xctest */,
+				814B87DF1B81127A004E9FAB /* GraphyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,15 +149,6 @@
 				814ABE9F1B804371009008CC /* Graphy.swift */,
 			);
 			path = Graphy;
-			sourceTree = "<group>";
-		};
-		814ABE611B804260009008CC /* GraphyTests */ = {
-			isa = PBXGroup;
-			children = (
-				814ABE621B804260009008CC /* GraphyTests.swift */,
-				814ABE641B804260009008CC /* Info.plist */,
-			);
-			path = GraphyTests;
 			sourceTree = "<group>";
 		};
 		814ABE721B804356009008CC /* GraphySample */ = {
@@ -201,6 +193,16 @@
 			name = "Data Structures";
 			sourceTree = "<group>";
 		};
+		814B87E01B81127A004E9FAB /* GraphyTests */ = {
+			isa = PBXGroup;
+			children = (
+				814B87E31B81127A004E9FAB /* Info.plist */,
+				814B87EB1B8112B2004E9FAB /* AdjacencyListTests.swift */,
+				814B87EA1B8112B2004E9FAB /* GraphyTests-Bridging-Header.h */,
+			);
+			path = GraphyTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -232,24 +234,6 @@
 			productName = Graphy;
 			productReference = 814ABE531B804260009008CC /* Graphy.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		814ABE5C1B804260009008CC /* GraphyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 814ABE6A1B804260009008CC /* Build configuration list for PBXNativeTarget "GraphyTests" */;
-			buildPhases = (
-				814ABE591B804260009008CC /* Sources */,
-				814ABE5A1B804260009008CC /* Frameworks */,
-				814ABE5B1B804260009008CC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				814ABE601B804260009008CC /* PBXTargetDependency */,
-			);
-			name = GraphyTests;
-			productName = GraphyTests;
-			productReference = 814ABE5D1B804260009008CC /* GraphyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		814ABE701B804356009008CC /* GraphySample */ = {
 			isa = PBXNativeTarget;
@@ -304,6 +288,24 @@
 			productReference = 814ABE8F1B804356009008CC /* GraphySampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		814B87DE1B81127A004E9FAB /* GraphyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814B87E71B81127A004E9FAB /* Build configuration list for PBXNativeTarget "GraphyTests" */;
+			buildPhases = (
+				814B87DB1B81127A004E9FAB /* Sources */,
+				814B87DC1B81127A004E9FAB /* Frameworks */,
+				814B87DD1B81127A004E9FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814B87E61B81127A004E9FAB /* PBXTargetDependency */,
+			);
+			name = GraphyTests;
+			productName = GraphyTests;
+			productReference = 814B87DF1B81127A004E9FAB /* GraphyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -317,9 +319,6 @@
 					814ABE521B804260009008CC = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					814ABE5C1B804260009008CC = {
-						CreatedOnToolsVersion = 7.0;
-					};
 					814ABE701B804356009008CC = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -330,6 +329,9 @@
 					814ABE8E1B804356009008CC = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 814ABE701B804356009008CC;
+					};
+					814B87DE1B81127A004E9FAB = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -347,7 +349,7 @@
 			projectRoot = "";
 			targets = (
 				814ABE521B804260009008CC /* Graphy */,
-				814ABE5C1B804260009008CC /* GraphyTests */,
+				814B87DE1B81127A004E9FAB /* GraphyTests */,
 				814ABE701B804356009008CC /* GraphySample */,
 				814ABE831B804356009008CC /* GraphySampleTests */,
 				814ABE8E1B804356009008CC /* GraphySampleUITests */,
@@ -357,13 +359,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		814ABE511B804260009008CC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		814ABE5B1B804260009008CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,6 +389,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		814B87DD1B81127A004E9FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -406,14 +408,6 @@
 				814ABEA51B8043E5009008CC /* AdjacencyMatrix.swift in Sources */,
 				814ABEA71B8044EA009008CC /* Vertex.swift in Sources */,
 				814ABEA91B80E6DB009008CC /* Graph.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		814ABE591B804260009008CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				814ABE631B804260009008CC /* GraphyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,14 +436,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		814B87DB1B81127A004E9FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814B87EC1B8112B2004E9FAB /* AdjacencyListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		814ABE601B804260009008CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 814ABE521B804260009008CC /* Graphy */;
-			targetProxy = 814ABE5F1B804260009008CC /* PBXContainerItemProxy */;
-		};
 		814ABE861B804356009008CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 814ABE701B804356009008CC /* GraphySample */;
@@ -459,6 +456,11 @@
 			isa = PBXTargetDependency;
 			target = 814ABE701B804356009008CC /* GraphySample */;
 			targetProxy = 814ABE901B804356009008CC /* PBXContainerItemProxy */;
+		};
+		814B87E61B81127A004E9FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814ABE521B804260009008CC /* Graphy */;
+			targetProxy = 814B87E51B81127A004E9FAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -597,32 +599,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Graphy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mbuff24.Graphy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		814ABE6B1B804260009008CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GraphyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbuff24.GraphyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		814ABE6C1B804260009008CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = GraphyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mbuff24.GraphyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -696,6 +679,31 @@
 			};
 			name = Release;
 		};
+		814B87E81B81127A004E9FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GraphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbuff24.GraphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GraphyTests/GraphyTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		814B87E91B81127A004E9FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = GraphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mbuff24.GraphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GraphyTests/GraphyTests-Bridging-Header.h";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -715,14 +723,7 @@
 				814ABE691B804260009008CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		814ABE6A1B804260009008CC /* Build configuration list for PBXNativeTarget "GraphyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				814ABE6B1B804260009008CC /* Debug */,
-				814ABE6C1B804260009008CC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		814ABE961B804356009008CC /* Build configuration list for PBXNativeTarget "GraphySample" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +732,7 @@
 				814ABE981B804356009008CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		814ABE991B804356009008CC /* Build configuration list for PBXNativeTarget "GraphySampleTests" */ = {
 			isa = XCConfigurationList;
@@ -739,12 +741,22 @@
 				814ABE9B1B804356009008CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		814ABE9C1B804356009008CC /* Build configuration list for PBXNativeTarget "GraphySampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				814ABE9D1B804356009008CC /* Debug */,
 				814ABE9E1B804356009008CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814B87E71B81127A004E9FAB /* Build configuration list for PBXNativeTarget "GraphyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814B87E81B81127A004E9FAB /* Debug */,
+				814B87E91B81127A004E9FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

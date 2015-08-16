@@ -12,23 +12,31 @@ class AdjacencyList<T: protocol<Hashable, Equatable>> {
     
     var edges: [Vertex<T>: [Vertex<T>]] = [:]
     
-    func exists(source: Vertex<T>, dest: Vertex<T>) -> Bool {
-        let sourceEdges = edges[source]
-        if let _ = sourceEdges?.indexOf(dest) {
-            return true
+    init() {}
+    
+    func indexOfEdge(source: Vertex<T>, dest: Vertex<T>) -> Int? {
+        guard let sourceEdges = edges[source],
+            edgeIndex = sourceEdges.indexOf(dest) else {
+                return nil
         }
         
-        return false
+        return edgeIndex
     }
     
     func addEdge(source: Vertex<T>, dest: Vertex<T>) {
-        if !exists(source, dest: dest) {
-            
+        if let index = indexOfEdge(source, dest: dest) {
+            print("edge alreadt exists at \(index)")
+        } else if let _ = edges[source] {
+            edges[source]?.append(dest)
+        } else {
+            edges[source] = [dest]
         }
     }
     
     func removeEdge(source: Vertex<T>, dest: Vertex<T>) {
-        
+        if let index = indexOfEdge(source, dest: dest) {
+            edges[source]?.removeAtIndex(index)
+        }
     }
     
 }
